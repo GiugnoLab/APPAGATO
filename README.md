@@ -4,12 +4,16 @@
 
 Version: **May, 2017**
 
+<hr />
+
 ### Description
 APPAGATO APPAGATO is a stochastic and parallel algorithm to find approximate occurrences of a query network in biological networks. APPAGATO allows nodes and edges mismatches. To speed-up the querying process, APPAGATO has been also implemented in parallel to run on graphics processing units (GPUs).
 
 APPAGATO is developed in C++ for CUDA under GNU\Linux. It requires NVIDIA GPU devices with compute capability 3.0 and above (Kepler and Maxwell architectures).
 
 See the related scientific article for more details.
+
+<hr />
 
 ### License
 APPAGATO is distributed under the MIT license. This means that it is free for both academic and commercial use. 
@@ -18,8 +22,12 @@ You are free to link or use APPAGATO inside source code of your own program. If 
 
 [MIT License](https://raw.githubusercontent.com/GiugnoLab/APPAGATO/master/LICENSE)
 
+<hr />
+
 ### Graph Dataset
 [Dataset Repository]()
+
+<hr />
 
 ### References 
 If you have used any of the APPAGATO project software or dataset, please cite the following article:
