@@ -1,0 +1,157 @@
+valgrind --track-fds=yes --leak-check=full --track-origins=yes --show-reachable=yes -v --max-stackframe=2818064 ./SeqAppagato_info ../Example_PPI_2/Homo_sapiens_43.gfu ../Example_PPI_2/Homo_sapiens_43_10.gfu 10
+==29998== Memcheck, a memory error detector
+==29998== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==29998== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==29998== Command: ./SeqAppagato_info ../Example_PPI_2/Homo_sapiens_43.gfu ../Example_PPI_2/Homo_sapiens_43_10.gfu 10
+==29998==
+--29998-- Valgrind options:
+--29998--    --track-fds=yes
+--29998--    --leak-check=full
+--29998--    --track-origins=yes
+--29998--    --show-reachable=yes
+--29998--    -v
+--29998--    --max-stackframe=2818064
+--29998-- Contents of /proc/version:
+--29998--   Linux version 3.2.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.65-1+deb7u1
+--29998--
+--29998-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3
+--29998-- Page sizes: currently 4096, max supported 4096
+--29998-- Valgrind library directory: /usr/local/lib/valgrind
+--29998-- Reading syms from /storage/fbusato/APPAGATO2/build/SeqAppagato_info
+--29998-- Reading syms from /lib/x86_64-linux-gnu/ld-2.13.so
+--29998--   Considering /lib/x86_64-linux-gnu/ld-2.13.so ..
+--29998--   .. CRC mismatch (computed 3606896c wanted 488e81f7)
+--29998--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/ld-2.13.so ..
+--29998--   .. CRC is valid
+--29998-- Reading syms from /usr/local/lib/valgrind/memcheck-amd64-linux
+--29998--    object doesn't have a dynamic symbol table
+--29998-- Scheduler: using generic scheduler lock implementation.
+--29998-- Reading suppressions file: /usr/local/lib/valgrind/default.supp
+==29998== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-29998-by-fbusato-on-???
+==29998== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-29998-by-fbusato-on-???
+==29998== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-29998-by-fbusato-on-???
+==29998==
+==29998== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==29998== don't want to do, unless you know exactly what you're doing,
+==29998== or are doing some strange experiment):
+==29998==   /usr/local/lib/valgrind/../../bin/vgdb --pid=29998 ...command...
+==29998==
+==29998== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==29998==   /path/to/gdb ./SeqAppagato_info
+==29998== and then give GDB the following command
+==29998==   target remote | /usr/local/lib/valgrind/../../bin/vgdb --pid=29998
+==29998== --pid is optional if only one valgrind process is running
+==29998==
+--29998-- REDIR: 0x40169d0 (ld-linux-x86-64.so.2:strlen) redirected to 0x38050381 (vgPlain_amd64_linux_REDIR_FOR_strlen)
+--29998-- Reading syms from /usr/local/lib/valgrind/vgpreload_core-amd64-linux.so
+--29998-- Reading syms from /usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so
+==29998== WARNING: new redirection conflicts with existing -- ignoring it
+--29998--     old: 0x040169d0 (strlen              ) R-> (0000.0) 0x38050381 vgPlain_amd64_linux_REDIR_FOR_strlen
+--29998--     new: 0x040169d0 (strlen              ) R-> (2007.0) 0x0402bbd0 strlen
+--29998-- REDIR: 0x4016840 (ld-linux-x86-64.so.2:index) redirected to 0x402b780 (index)
+--29998-- REDIR: 0x40168c0 (ld-linux-x86-64.so.2:strcmp) redirected to 0x402cc80 (strcmp)
+--29998-- REDIR: 0x4017780 (ld-linux-x86-64.so.2:mempcpy) redirected to 0x402fd80 (mempcpy)
+--29998-- Reading syms from /storage/fbusato/bin/gcc-4.9.2/build/lib64/libstdc++.so.6.0.20
+--29998-- Reading syms from /lib/x86_64-linux-gnu/libm-2.13.so
+--29998--   Considering /lib/x86_64-linux-gnu/libm-2.13.so ..
+--29998--   .. CRC mismatch (computed c9b866c0 wanted dc8a8daa)
+--29998--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libm-2.13.so ..
+--29998--   .. CRC is valid
+--29998-- Reading syms from /storage/fbusato/bin/gcc-4.9.2/build/lib64/libgcc_s.so.1
+--29998-- Reading syms from /lib/x86_64-linux-gnu/libc-2.13.so
+--29998--   Considering /lib/x86_64-linux-gnu/libc-2.13.so ..
+--29998--   .. CRC mismatch (computed a9b6274d wanted 37891544)
+--29998--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.13.so ..
+--29998--   .. CRC is valid
+--29998-- REDIR: 0x4d28630 (libc.so.6:strcasecmp) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4d2a8f0 (libc.so.6:strncasecmp) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4d26690 (libc.so.6:__GI_strrchr) redirected to 0x402b490 (__GI_strrchr)
+--29998-- REDIR: 0x4d24bb0 (libc.so.6:__GI_strlen) redirected to 0x402bb30 (__GI_strlen)
+--29998-- REDIR: 0x4d23130 (libc.so.6:strcmp) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4db7ee0 (libc.so.6:__strcmp_sse42) redirected to 0x402cc30 (__strcmp_sse42)
+--29998-- REDIR: 0x4d24b70 (libc.so.6:strlen) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4dbf670 (libc.so.6:__strlen_sse42) redirected to 0x402bb90 (__strlen_sse42)
+--29998-- REDIR: 0x4099430 (libstdc++.so.6:operator new(unsigned long)) redirected to 0x4028fe0 (operator new(unsigned long))
+--29998-- REDIR: 0x4d2cfc0 (libc.so.6:memcpy) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4dcd930 (libc.so.6:__memcpy_ssse3_back) redirected to 0x402d370 (memcpy)
+--29998-- REDIR: 0x40976e0 (libstdc++.so.6:operator delete(void*)) redirected to 0x402a00c (operator delete(void*))
+--29998-- REDIR: 0x4d1f830 (libc.so.6:malloc) redirected to 0x4028ad8 (malloc)
+--29998-- REDIR: 0x4d325c0 (libc.so.6:__GI_strstr) redirected to 0x4030000 (__strstr_sse2)
+--29998-- REDIR: 0x40994f0 (libstdc++.so.6:operator new[](unsigned long)) redirected to 0x4029685 (operator new[](unsigned long))
+--29998-- REDIR: 0x4d26d90 (libc.so.6:memchr) redirected to 0x402cd20 (memchr)
+--29998-- REDIR: 0x4097700 (libstdc++.so.6:operator delete[](void*)) redirected to 0x402a4bc (operator delete[](void*))
+--29998-- REDIR: 0x4d1f750 (libc.so.6:free) redirected to 0x4029bf2 (free)
+--29998-- REDIR: 0x4d26e10 (libc.so.6:bcmp) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4dda090 (libc.so.6:__memcmp_sse4_1) redirected to 0x402e7b0 (__memcmp_sse4_1)
+
+Read Header:    Homo_sapiens_43
+--29998-- REDIR: 0x4d2e3e0 (libc.so.6:strchrnul) redirected to 0x402f8b0 (strchrnul)
+--29998-- REDIR: 0x4d27fd0 (libc.so.6:__GI_mempcpy) redirected to 0x402fab0 (__GI_mempcpy)
+       Name:    "omo_sapiens_real_43"           Nodes: 12,575   Edges: 86,890   Directed Edges: 173,780 Size: 0.8 MB
+
+
+Read Header:    Homo_sapiens_43_10
+       Name:    "uery_Homo_sapiens"             Nodes: 128      Edges: 389      Directed Edges: 778     Size: 0.0 MB
+
+--29998-- REDIR: 0x4d27430 (libc.so.6:memset) redirected to 0x40226ae (_vgnU_ifunc_wrapper)
+--29998-- REDIR: 0x4d27470 (libc.so.6:__GI_memset) redirected to 0x402efa0 (memset)
+Reading Graph File...
+Complete!
+
+Reading Graph File...
+Complete!
+
+--29998-- REDIR: 0x4d2d010 (libc.so.6:__GI_memcpy) redirected to 0x402d680 (__GI_memcpy)
+             Read Time  1702.7 ms
+
+N. of Labels:   43
+
+        --------=: Similarity :=--------                BFS Similarity Deep:    2
+
+            Similarity  260946.7 ms
+
+           --------=: Seed :=--------
+
+                  Seed  3314.1 ms
+
+          --------=: Extend :=--------
+
+                Extend  29556.1 ms
+
+
+  Requested solutions:   10
+    Founded solutions:   10
+
+                  min:   0.08
+                  max:   0.10
+                  avg:   0.08
+                  dev:   0.01
+
+  Query N. distinct solutions:  10
+ Target N. distinct solutions:  10
+
+            Write Time  23.7 ms
+
+==29998==
+==29998== FILE DESCRIPTORS: 3 open at exit.
+==29998== Open file descriptor 2: /dev/pts/5
+==29998==    <inherited from parent>
+==29998==
+==29998== Open file descriptor 1: /dev/pts/5
+==29998==    <inherited from parent>
+==29998==
+==29998== Open file descriptor 0: /dev/pts/5
+==29998==    <inherited from parent>
+==29998==
+==29998==
+==29998== HEAP SUMMARY:
+==29998==     in use at exit: 0 bytes in 0 blocks
+==29998==   total heap usage: 12,908 allocs, 12,908 frees, 29,037,367 bytes allocated
+==29998==
+==29998== All heap blocks were freed -- no leaks are possible
+==29998==
+==29998== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+--29998--
+--29998-- used_suppression:      2 dl-hack3-cond-1 /usr/local/lib/valgrind/default.supp:1218
+==29998==
+==29998== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

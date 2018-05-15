@@ -1,0 +1,43 @@
+
+http://cloc.sourceforge.net v 1.64  T=3.27 s (7.0 files/s, 807.9 lines/s)
+-----------------------------------------------------------------------------------------------------
+File                                                              blank        comment           code
+-----------------------------------------------------------------------------------------------------
+../src/Device/Kernels/ExtendKernelSupport.cu                         67             32            287
+../src/Device/Kernels/BFSSimilarityTargetKernel.cu                   54              3            212
+../src/Host/approx_subgraph_iso.cpp                                  27             10            141
+../src/Device/approx_subgraph_iso.cu                                 24              9            130
+../src/Device/Kernels/ExtendKernel.cu                                35             12            113
+../include/Host/GraphAPP.i.hpp                                       19              1            113
+../src/Device/Kernels/BFSSimilarityQueryKernel.cu                    42              3            111
+../src/Device/seed.cu                                                48              8            104
+../src/Host/extend.cpp                                               22              4             99
+../CMakeLists.txt                                                    26             11             96
+../src/Device/similarity.cu                                          29              5             80
+../src/Host/seed.cpp                                                 17             13             58
+../Appagato.cpp                                                      18              5             56
+../src/Device/Kernels/SeedKernel.cu                                  11              0             55
+../include/Host/approx_subgraph_iso.i.hpp                            10              0             49
+../Converter/Converter.cpp                                           14              7             46
+../include/Host/approx_subgraph_iso.hpp                              10              0             43
+../include/types.hpp                                                 18              1             41
+../config.h                                                          15              6             35
+../src/Device/extend.cu                                               9              0             34
+../src/Host/GraphAPP.cpp                                              5              0             29
+../include/Host/GraphAPP.hpp                                          8              1             25
+../src/Host/similarity.cpp                                            5              0             22
+-----------------------------------------------------------------------------------------------------
+SUM:                                                                533            131           1979
+-----------------------------------------------------------------------------------------------------
+
+http://cloc.sourceforge.net v 1.64  T=3.29 s (7.0 files/s, 804.2 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+CUDA                             9            319             72           1126
+C++                              7            108             39            451
+C/C++ Header                     6             80              9            306
+CMake                            1             26             11             96
+-------------------------------------------------------------------------------
+SUM:                            23            533            131           1979
+-------------------------------------------------------------------------------

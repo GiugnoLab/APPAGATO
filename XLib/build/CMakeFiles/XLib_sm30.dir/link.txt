@@ -1,0 +1,2 @@
+/usr/bin/ar cq libXLib_sm30.a  CMakeFiles/XLib_sm30.dir/Base/Host/src/fUtil.cpp.o CMakeFiles/XLib_sm30.dir/Base/Host/src/Timer.cpp.o CMakeFiles/XLib_sm30.dir/Base/Device/Util/src/XLib_sm30_generated_Timer.cu.o CMakeFiles/XLib_sm30.dir/Base/Device/Util/src/XLib_sm30_generated_cuda_util.cu.o
+/usr/bin/ranlib libXLib_sm30.a

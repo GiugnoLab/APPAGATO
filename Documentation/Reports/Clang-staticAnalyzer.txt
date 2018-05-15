@@ -1,0 +1,4 @@
+scan-build make
+scan-build: Using 'clang-3.8' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2015-12-17-233610-26563-1' because it contains no reports.
+scan-build: No bugs found.

@@ -1,0 +1,59 @@
+./lizard -V
+================================================
+  NLOC    CCN   token  PARAM  length  location
+------------------------------------------------
+      14      5    185      2      15 appagato::host::approx_subgraph_iso::computeProbability@23-38@../../APPAGATO2/src/Host/seed.cpp
+      20      6    176      4      22 appagato::host::approx_subgraph_iso::computeSeeds@40-62@../../APPAGATO2/src/Host/seed.cpp
+      17      2    205      3      21 appagato::host::approx_subgraph_iso::seed@64-85@../../APPAGATO2/src/Host/seed.cpp
+      17      3    193      1      19 appagato::host::approx_subgraph_iso::similarity@6-25@../../APPAGATO2/src/Host/similarity.cpp
+       8      3     56      3       7 appagato::host::GetByProb@10-17@../../APPAGATO2/src/Host/extend.cpp
+      82     18    835      2     103 appagato::host::approx_subgraph_iso::extend@19-122@../../APPAGATO2/src/Host/extend.cpp
+       8      1     81      3       8 appagato::host::approx_subgraph_iso::approx_subgraph_iso@11-19@../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+       5      1     22      0       4 appagato::host::approx_subgraph_iso::~approx_subgraph_iso@21-25@../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+      23      5    193      0      41 appagato::host::approx_subgraph_iso::resolve@28-69@../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+      41      7    440      0      42 appagato::host::approx_subgraph_iso::calculateCost@72-114@../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+      18      5    203      0      18 appagato::host::approx_subgraph_iso::uniqueSolutions@117-135@../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+      28      4    217      0      39 appagato::host::approx_subgraph_iso::printSolutions@137-176@../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+      22      5    203      3      25 graph::readHeader@7-32@../../APPAGATO2/src/Host/GraphAPP.cpp
+      42      8    372      2      61 main@6-67@../../APPAGATO2/Converter/Converter.cpp
+       7      3     65      4       6 appagato::host::approx_subgraph_iso::isEdge@7-13@../../APPAGATO2/include/Host/approx_subgraph_iso.i.hpp
+      35      9    350      7      40 appagato::host::approx_subgraph_iso::BFS_Similarity@16-56@../../APPAGATO2/include/Host/approx_subgraph_iso.i.hpp
+       6      1     65      2       5 graph::GraphAPP<node_t,edge_t>::GraphAPP@6-11@../../APPAGATO2/include/Host/GraphAPP.i.hpp
+       6      1     32      0       5 graph::GraphAPP<node_t,edge_t>::~GraphAPP@14-19@../../APPAGATO2/include/Host/GraphAPP.i.hpp
+      38      5    344      2      46 graph::GraphAPP<node_t,edge_t>::read@23-69@../../APPAGATO2/include/Host/GraphAPP.i.hpp
+      19      4    142      0      19 graph::GraphAPP<node_t,edge_t>::isWeaklyConnected@73-92@../../APPAGATO2/include/Host/GraphAPP.i.hpp
+      33      8    308      0      35 graph::GraphAPP<node_t,edge_t>::maxFrontiers@96-131@../../APPAGATO2/include/Host/GraphAPP.i.hpp
+      11      4     61      2      16 main@473-489@../../APPAGATO2/build/CMakeFiles/3.2.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+       1      1     22      2       0 main@405-405@../../APPAGATO2/build/CMakeFiles/feature_tests.cxx
+      38     13    502      2      69 main@10-79@../../APPAGATO2/Appagato.cpp
+--------------------------------------------------------------
+15 file analyzed.
+==============================================================
+NLOC    Avg.NLOC AvgCCN Avg.ttoken  function_cnt    file
+--------------------------------------------------------------
+     58     17    4.0       188         3     ../../APPAGATO2/src/Host/seed.cpp
+     22     17    3.0       193         1     ../../APPAGATO2/src/Host/similarity.cpp
+     99     45   10.0       445         2     ../../APPAGATO2/src/Host/extend.cpp
+    133     20    3.0       192         6     ../../APPAGATO2/src/Host/approx_subgraph_iso.cpp
+     27     22    5.0       203         1     ../../APPAGATO2/src/Host/GraphAPP.cpp
+     46     42    8.0       372         1     ../../APPAGATO2/Converter/Converter.cpp
+     49     21    6.0       207         2     ../../APPAGATO2/include/Host/approx_subgraph_iso.i.hpp
+    111     20    3.0       178         5     ../../APPAGATO2/include/Host/GraphAPP.i.hpp
+     24      0    0.0         0         0     ../../APPAGATO2/include/Host/GraphAPP.hpp
+     42      0    0.0         0         0     ../../APPAGATO2/include/Host/approx_subgraph_iso.hpp
+     37      0    0.0         0         0     ../../APPAGATO2/include/types.hpp
+     32     11    4.0        61         1     ../../APPAGATO2/build/CMakeFiles/3.2.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+    231      1    1.0        22         1     ../../APPAGATO2/build/CMakeFiles/feature_tests.cxx
+     43     38   13.0       502         1     ../../APPAGATO2/Appagato.cpp
+     14      0    0.0         0         0     ../../APPAGATO2/config.h
+
+=================================================================
+!!!! Warnings (CCN > 15 or arguments > 100 or length > 1000) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location
+------------------------------------------------
+      82     18    835      2     103 appagato::host::approx_subgraph_iso::extend@19-122@../../APPAGATO2/src/Host/extend.cpp
+==========================================================================================
+Total nloc  Avg.nloc  Avg CCN  Avg token  Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       968        22     5.08     219.67       24            1      0.04    0.15
