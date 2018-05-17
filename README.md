@@ -38,5 +38,7 @@ If you have used any of the APPAGATO project software or dataset, please cite th
     publisher={Oxford Univ Press}
     }"
 
+<hr />
+
 ### Graph Dataset
 [Dataset Repository]()
