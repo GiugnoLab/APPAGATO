@@ -24,11 +24,6 @@ You are free to link or use APPAGATO inside source code of your own program. If 
 
 <hr />
 
-### Graph Dataset
-[Dataset Repository]()
-
-<hr />
-
 ### References 
 If you have used any of the APPAGATO project software or dataset, please cite the following article:
   
@@ -42,3 +37,6 @@ If you have used any of the APPAGATO project software or dataset, please cite th
     year={2016},
     publisher={Oxford Univ Press}
     }"
+
+### Graph Dataset
+[Dataset Repository]()
