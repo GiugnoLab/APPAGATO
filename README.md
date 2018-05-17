@@ -24,6 +24,12 @@ You are free to link or use APPAGATO inside source code of your own program. If 
 
 <hr />
 
+### Citation
+    "Bonnici, V., Busato, F., Micale, G., Bombieri, N., Pulvirenti, A., & Giugno, R. (2016).
+     APPAGATO: an APproximate PArallel and stochastic GrAph queryingTOol for biological networks.
+     Bioinformatics, 32(14), 2159-2166."
+[Cited by](https://scholar.google.it/scholar?hl=it&as_sdt=0%2C5&q=appagato+bonnici&btnG=) <br>
+
 ### References 
 If you have used any of the APPAGATO project software or dataset, please cite the following article:
   
